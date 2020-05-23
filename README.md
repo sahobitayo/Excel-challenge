@@ -1,5 +1,4 @@
 # Excel-challenge
-Organize and analyze a database of 4,000 past projects in order to uncover any hidden trends
 
 In this project I will be using the Excel table provided, modify and analyze the data of 4,000 past Kickstarter projects as I attempt to uncover some market trends.
 
@@ -21,15 +20,28 @@ In this project I will be using the Excel table provided, modify and analyze the
 - I created a new sheet with a pivot table with a column of `state`, rows of `Date Created Conversion`, values based on the count of `state`, and filters based on `parent category` and `Years`.
 
 
+In addition to this, further visualizations were made. In a new sheet, 8 new columns: `Goal`, `Number Successful`, `Number Failed`, `Number Canceled`, `Total Projects`, `Percentage Successful`, `Percentage Failed`, `Percentage Canceled` were made
+
+
+
+- The amount of count successful, failed, and canceled projects were created with goals within the appropriate ranges. The the Number Successful, Number Failed, and Number Canceled were populated
+
+- The percentage of projects that were successful, failed, or canceled per goal range were found and also a line chart that shows this.
+
+
 ##  Observations
 From the visulaizations, a report which answered the following questions could me made
 1. What are three conclusions we can draw about Kickstarter campaigns?
 2. What are some limitations of this dataset?
 3. What are some other possible tables and/or graphs that we could create?
 
+**BONUS** 
+- Use your data to determine whether the mean or the median summarizes the data more meaningfully.
+- Use your data to determine if there is more variability with successful or unsuccessful campaigns. Does this make sense? Why or why not?
 
 
-###                                       Saheed Obitayo
+
+###         Saheed Obitayo
 ###                                     Kick Start My Chart
 1) From the Data provided, we can conclude that most kick starter campaigns originate from the United States of America as that is the country with the most projects. Additionally, we can conclude that most of the Kickstarter campaigns are plays. Lastly, we can conclude that if successful campaign should be created, the best move would be for it to fall into a rock category as that has proven to be the most successful campaigns with a 100% success rate based on the data. 
 
@@ -41,89 +53,3 @@ From the visulaizations, a report which answered the following questions could m
 #### BONUS
 1)	Based on the data, the median summarizes the data more meaningfully. This was observed from the boxplots of the unsuccessful and successful backer count values.
 2)	Based on the data, there is a greater variability in backer count in successful campaigns than unsuccessful ones. This makes sense because although successful campaigns typically require greater number of backers, it can also have a smaller backer count if the average donation is higher. Unsuccessful campaigns will always have a smaller backer count as a larger backer count would turn the unsuccessful campaign successful.
-
-
-
-
-
-
-Bonus
-
-
-Create a new sheet with 8 columns:
-
-Goal
-Number Successful
-Number Failed
-Number Canceled
-Total Projects
-Percentage Successful
-Percentage Failed
-Percentage Canceled
-
-
-
-In the Goal column, create 12 rows with the following headers:
-
-Less than 1000
-1000 to 4999
-5000 to 9999
-10000 to 14999
-15000 to 19999
-20000 to 24999
-25000 to 29999
-30000 to 34999
-35000 to 39999
-40000 to 44999
-45000 to 49999
-Greater than or equal to 50000
-
-
-
-
-Using the COUNTIFS() formula, count how many successful, failed, and canceled projects were created with goals within the ranges listed above. Populate the Number Successful, Number Failed, and Number Canceled columns with this data.
-
-
-Add up each of the values in the Number Successful, Number Failed, and Number Canceled columns to populate the Total Projects column. Then, using a mathematical formula, find the percentage of projects that were successful, failed, or canceled per goal range.
-
-
-Create a line chart that graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
-
-
-
-Bonus Statistical Analysis
-If one were to describe a successful crowdfunding campaign, most people would use the number of campaign backers as a metric of success. One of the most efficient ways that data scientists characterize a quantitative metric, such as the number of campaign backers, is by creating a summary statistics table.
-For those looking for an additional challenge, you will evaluate the number of backers of successful and unsuccessful campaigns by creating your own summary statistics table.
-
-
-Create a new worksheet in your workbook, and create a column each for the number of backers of successful campaigns and unsuccessful campaigns.
-
-
-
-Use Excel to evaluate the following for successful campaigns, and then for unsuccessful campaigns:
-
-
-The mean number of backers.
-
-
-The median number of backers.
-
-
-The minimum number of backers.
-
-
-The maximum number of backers.
-
-
-The variance of the number of backers.
-
-
-The standard deviation of the number of backers.
-
-
-
-
-Use your data to determine whether the mean or the median summarizes the data more meaningfully.
-
-
-Use your data to determine if there is more variability with successful or unsuccessful campaigns. Does this make sense? Why or why not?
