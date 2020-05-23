@@ -22,7 +22,7 @@ In this project I will be using the Excel table provided, modify and analyze the
 
 In addition to this, further visualizations were made. In a new sheet, 8 new columns: `Goal`, `Number Successful`, `Number Failed`, `Number Canceled`, `Total Projects`, `Percentage Successful`, `Percentage Failed`, `Percentage Canceled` were made
 
-
+<img src= "Images/GoalOutcomes.PNG" width ="700">
 
 - The amount of count successful, failed, and canceled projects were created with goals within the appropriate ranges. The the Number Successful, Number Failed, and Number Canceled were populated
 
